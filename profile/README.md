@@ -8,7 +8,7 @@
 
 <br>
 
-Cada vez más compras las hace **un agente de IA en nombre de alguien**. Para tu tienda, ese agente se parece mucho a un scraper: los dos son programas, los dos navegan sin ratón. Hoy se bloquea a los dos, y con el scraper se va también la venta.
+Cada vez más compras las hace **un agente de IA en nombre de alguien**. Para tu tienda, ese agente se parece mucho a un scraper: los dos son programas, los dos navegan sin ratón. Muchas tiendas bloquean a los dos (en nuestra prueba, 10 de 22 tiendas de moda españolas), y con el scraper se va también la venta.
 
 **Open2Agents** distingue en tu tienda a las personas, a los scrapers y a los agentes que vienen a comprar. Al scraper le cierra el paso; al agente, se lo abre.
 
