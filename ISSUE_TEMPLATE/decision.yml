@@ -1,0 +1,36 @@
+name: Decisión
+description: Algo que hay que decidir (producto, arquitectura, negocio). Queda escrito el porqué.
+title: "Decisión: "
+labels: ["decisión"]
+body:
+  - type: textarea
+    id: contexto
+    attributes:
+      label: Contexto
+      description: Qué pasa y por qué hay que decidir ahora.
+    validations:
+      required: true
+  - type: textarea
+    id: opciones
+    attributes:
+      label: Opciones
+      description: Cada opción con lo que gana y lo que cuesta.
+      value: |
+        1. 
+        2. 
+    validations:
+      required: true
+  - type: textarea
+    id: propuesta
+    attributes:
+      label: Propuesta
+      description: Qué recomiendas y la objeción más fuerte en contra.
+  - type: input
+    id: plazo
+    attributes:
+      label: Hay que decidir antes de
+  - type: textarea
+    id: decision
+    attributes:
+      label: Decisión
+      description: Se rellena al cerrar. Quién decidió, qué y por qué.

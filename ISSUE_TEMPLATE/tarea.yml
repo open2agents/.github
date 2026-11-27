@@ -1,0 +1,17 @@
+name: Tarea
+description: Algo que construir o arreglar.
+labels: ["tarea"]
+body:
+  - type: textarea
+    id: que
+    attributes:
+      label: Qué
+    validations:
+      required: true
+  - type: textarea
+    id: hecho
+    attributes:
+      label: Está hecho cuando
+      description: Cómo se comprueba.
+    validations:
+      required: true
